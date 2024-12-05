@@ -1,15 +1,13 @@
 ;...............................................................................;
 ;                                                                               ;
-; app ...........: tigerlily's Screen Dimmer		                        ;
+; app ...........: the Screen Dimmer		                                ;
 ; version .......: 0.5.1                                                        ;
 ;                                                                               ;
 ;...............................................................................;
 ;                                                                               ;
-; author ........: tigerlily                                                    ;
-; language ......: AutoHotkey V2 (alpha 122-f595abc2)                           ;
-; github repo ...: https://git.io/tigerlilysScreenDimmer			;
+; author ........: 348bestbox                                                   ;
+; language ......: AutoHotkey V2 (alpha 122-f595abc2)			        ;
 ; download EXE ..: https://git.io/JUUAu						;
-; forum thread ..: https://bit.ly/tigerlilys-screen-dimmer-AHK-forum		;
 ; license .......: MIT (https://git.io/tigerlilysScreenDimmerLicense)		;
 ;                                                                               ;
 ;...............................................................................;
