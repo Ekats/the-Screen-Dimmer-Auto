@@ -7,8 +7,7 @@
 ;                                                                               ;
 ; author ........: 348bestbox                                                   ;
 ; language ......: AutoHotkey V2 (alpha 122-f595abc2)			        ;
-; download EXE ..: https://git.io/JUUAu						;
-; license .......: MIT (https://git.io/tigerlilysScreenDimmerLicense)		;
+; download EXE ..: https://git.io/JUUAu			        		;
 ;                                                                               ;
 ;...............................................................................;
 ; [CHANGE LOG], [PENDING] and [REMARKS] @ bottom of script                      ;
@@ -30,7 +29,7 @@ global mon := Monitor.New()
 ;................................................................................
 
 ;	Set Icon ToolTip and App Name
-A_IconTip := "tigerlily's Screen Dimmer"
+A_IconTip := "the Screen Dimmer"
 
 ; Create tray menu with only a "Close App" option
 ,	A_TrayMenu.Delete()
@@ -226,15 +225,13 @@ while ((i := A_Index - (monitorCount > 1 ? 1 : 0)) <= monitorCount)
 
 ,	monitorMenuTabs.UseTab("App Info / Report Bug")
 ,	monitorMenu.Add("Link", "w400 Center", 
-		"Thanks so much for choosing to use tigerlily's Screen Dimmer!`n`n"
+		"Thanks so much for choosing to use the Screen Dimmer!`n`n"
 		"I hope you really enjoy this screen dimmer as I believe it is the best one out there. f.lux, iris, and other well known screen dimmers do not give as much control as I would like and sometimes only create a transparent black screen overlay, which is prone to annoyances.`n`n"
 		"This screen dimmer allows you to adjust actual gamma color output, making your screen completely stop emitting blue, green, or red light if desired, which is way more beneficial than an arbitrary color temperature or simple screen overlay. `n`n"
 		"It also allows you to turn on/off your monitors with a click of a button, which can sometimes help with focusing on a multi-monitor setup.`n`n"
 		"This is a work in progress, but will eventually contain customizable hotkeys, custom timers, color temperature settings, and more.`n`n`n"
 		"Please report any bugs / feedback / comments at either:`n`n"
-		"<a href=`"https://git.io/tigerlilysScreenDimmer`">---> GitHub Repository</a>`n`n" 
-		"<a href=`"https://bit.ly/tigerlilys-screen-dimmer-AHK-forum`">---> AutoHotkey Forum Thread</a>`n`n`n"
-		"Feel free email me directly about bugs and about any desired features you want me to add at: <a href=`"mailto: tigerlily.developer@gmail.com`">tigerlily.developer@gmail.com</a>")
+		"Feel free email me directly about bugs and about any desired features you want me to add at: )
 
 
 ; Sets "All Monitors" Tab sliders if all monitors have matching current feature setting values
@@ -623,7 +620,7 @@ midnightThemeFile := "
 (
 [Theme]
 ; Windows - IDS_THEME_DISPLAYNAME_AERO
-DisplayName=tigerlily's Midnight Theme
+DisplayName=Midnight Theme
 ThemeId={09FBF740-B58E-4297-AFDE-F7F599CAB875}
 
 ; Computer - SHIDI_SERVER
@@ -726,7 +723,7 @@ twilightThemeFile := "
 (
 [Theme]
 ; Windows - IDS_THEME_DISPLAYNAME_AERO
-DisplayName=tigerlily's Midnight Theme
+DisplayName=Midnight Theme
 ThemeId={09FBF740-B58E-4297-AFDE-F7F599CAB875}
 
 ; Computer - SHIDI_SERVER
@@ -827,7 +824,7 @@ WindowText=48 50 140
 
 	name := StrReplace(radio.Name, "Theme")
 
-	themeFileName := "tigerlily's " name " Theme.theme"		
+	themeFileName := name " Theme.theme"		
 	themeFilePath := A_ScriptDir "\" themeFileName	
 
 	; 
